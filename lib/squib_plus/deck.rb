@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'fileutils'
+
 module Squib
   class Deck
     # Adds a card number to the bottom right of the card by default.

@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require 'fileutils'
 require 'mechanize'
 
 module Squib
@@ -9,7 +10,7 @@ module Squib
     end
   end
 
-  module DSL   
+  module DSL
     # Add an avatar for placeholder art in your games
     # using https://avatars.dicebear.com/. The image will
     # be downloaded to your configured image directory if
